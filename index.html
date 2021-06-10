@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="inputform">
-        <form action="submit">
+    <button type="button" 
+    onclick="myFunction()">Click here</button>
+    <p id="try this"></p>
+    
+    
+    <script src="java.js">
+        function myFunction() {
+            var d = new Date();
+            var n = d.getDay()
+            document.getElementById("try this").innerHTML=n;
 
-        </form>
-    </div>
-    <script src="java.js"></script>
+        }
+    </script>
 </body>
 </html>
