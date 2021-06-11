@@ -1,4 +1,5 @@
 function giveAkanName(){
+    
 
     event.preventDefault();
 
