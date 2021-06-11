@@ -1,4 +1,4 @@
-function giveAkanName(){
+var submission = function (){
 
     event.preventDefault();
 
