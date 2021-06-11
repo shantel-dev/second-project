@@ -11,21 +11,22 @@
     <h1>The Ghanaian Akan names</h1>
     <p>Fill the form below to get to know your akan name therefore the day you were born.</p>
     <div class="inputForm">
-        <form action="Submit">
+        <form action="submit">
             <div>
                 <label for="dayBorn">Enter the year you were born</label>
-                <input type="number">
+                <input id="year" type="number">
             </div>
             <div>
                 <label for ="dayBorn">Month</label>
-                <input type="number">
+                <input id="month" type="number">
             </div>
             <div>
                 <label for ="dayBorn">Day</label>
-                <input type="number">
+                <input id="day" type="number">
             </div>
-            <button>Submit</button>
+            <button onclick = "giveAkanName();">submit</button>
         </form>
+        <p id="para"></p>
     
     <p>Click the button to display your akan name therefore the day of the week you were born.</p>
     

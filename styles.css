@@ -9,7 +9,8 @@ body{
     background: url("background.jpg") no-repeat center center/cover;
     font-size: 2.5rem;
 }
-form{margin: 20px;
+form{
+    margin: 20px;
 
 }
 form div{
