@@ -36,6 +36,23 @@ function giveAkanName(){
      output.innerHTML = "please enter a valid month!"
  }
 
+ else if ((day < 0 ) || (day > 31)) {
+    output.style.background ="blue"
+    output.style.background ="white"
+    output.innerHTML = "please enter a valid day!"
+
+ }
+ if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+    output.style.background ="yellowgreen"
+      output.innerHTML = "You were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
+   
+      
+  }
+  else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
+    output.style.background ="yellowgreen"
+    output.innerHTML = " You were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+}
+
 }
 
 
