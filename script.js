@@ -27,20 +27,20 @@ function giveAkanName(){
  if (year < 0) {
      output.style.background ="blue"
      output.style.color= "white"
-     output.innerHTML = " please enter a valid year! "
+     output.innerHTML = " invalid year! "
 }
 
     
  else if ((month < 1) || (month > 31)) {
      output.style.background ="blue"
      output.style.background ="white"
-     output.innerHTML = "please enter a valid month!"
+     output.innerHTML = "invalid month!"
  }
 
  else if ((day < 0 ) || (day > 31)) {
     output.style.background ="blue"
     output.style.background ="white"
-    output.innerHTML = "please enter a valid day!"
+    output.innerHTML = "invalid day!"
 
  }
  if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
